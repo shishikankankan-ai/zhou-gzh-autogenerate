@@ -2,6 +2,7 @@
 
 .env
 .env.*
+!.env.example
 *.env
 
 # 本地缓存（token 等）
