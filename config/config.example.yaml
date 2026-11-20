@@ -1,0 +1,25 @@
+# 账号配置样例
+# 复制成自己的配置文件，把账号信息填进去。
+# 这里的示例是通用占位，不含任何真实账号。
+# 注意：当前 scripts/ 下的脚本并不读取这个文件，它供人参考、手动填提示词用。
+
+# 账号定位（选题提示词会用）
+account:
+  name: "我的账号"
+  positioning: "面向新手的某领域干货分享"
+  focus: ["方向一", "方向二", "方向三"]
+  target_reader: "刚入门的人"
+
+# 默认风格（templates/style-guide.md 里挑一个）
+default_style: "干货可截图即用型"
+
+# 排版参数（对应 prompts/03-layout/style-vars.md）
+layout:
+  body_font_size: "16px"
+  line_height: 1.75
+  primary_colors: ["#333333", "#1a73e8"]
+
+# 输出
+output:
+  dir: "output"
+  history_csv: "config/history.csv"

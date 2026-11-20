@@ -1,0 +1,26 @@
+# 环境变量 / 密钥 —— 绝不提交
+
+.env
+.env.*
+*.env
+
+# 本地缓存（token 等）
+.cache/
+cache/
+*.token
+
+# 生成物 / 草稿输出
+output/
+drafts/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 系统 / 编辑器
+.DS_Store
+.idea/
+.vscode/
